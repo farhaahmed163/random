@@ -211,9 +211,13 @@
   }
 
   .main {
-    padding: 20px;
+    padding: 15px 10px;
 
     .container {
+      p {
+        font-size: 12px;
+      }
+
       .row {
         .list {
           display: none;
@@ -240,8 +244,8 @@
               tbody {
                 tr {
                   td {
-                    padding: 10px;
-                    font-size: 12px;
+                    padding: 7px;
+                    font-size: 10px;
                   }
                 }
               }
