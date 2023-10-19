@@ -6,12 +6,12 @@ import { AppComponent } from './app.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { WebComponent } from './web/web.component';
 import { MobileComponent } from './mobile/mobile.component';
+import { MegaComponent } from './mega/mega.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +19,13 @@ import { MobileComponent } from './mobile/mobile.component';
     ProjectsComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent,
     FooterComponent,
     NavbarComponent,
     NotfoundComponent,
     WebComponent,
-    MobileComponent
+    MobileComponent,
+    MegaComponent,
+
   ],
   imports: [
     BrowserModule,
